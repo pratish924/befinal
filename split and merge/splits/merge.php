@@ -1,7 +1,8 @@
 
 <font face="Courier new" size="2.5">
+  <!--
 <h3>PHP Merge Script by Arash Hemmat & Codex-M (www.php-developer.org) </h3>
-<b>Purpose:</b> To merge splitted parts which are now placed in your FTP server.<br />
+<b>Purpose:</b> To merge splitted parts which are now placed in your FTP server.<br /> -->
 <b>Instructions:</b> Place this script in your your FTP server (Apache) containing the same path/directory as the split parts.
 <br />
 Enter details below as accurate as possible. After that press the submit button.<br />
