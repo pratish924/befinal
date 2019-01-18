@@ -1,13 +1,13 @@
 <?php
 
- //$file = "C:\Users\*name*\Desktop\degea.jpg";
-function fsplit($file,$buffer=4096){
+
+function fsplit($file,$buffer=1024){
     //open file to read
     $file_handle = fopen($file,'r');
     //get file size
     $file_size = filesize($file);
     //no of parts to split
-    $parts = $file_size / $buffer;
+    $parts = 1024 / $buffer;
     
     //store all the file names
     $file_parts = array();
